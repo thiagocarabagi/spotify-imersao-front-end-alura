@@ -1,6 +1,6 @@
 /* HEADER */
 
-/* .main-container{
+.main-container{
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
@@ -90,7 +90,28 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
-  } */
+  }
+
+
+  /* INICIO CARDS */
+
+  .home-cards{
+    padding: 25px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .home-cards h1{
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+
+  .home-cards h2{
+      font-size: 20px;
+  }
 
 
   .disclaimer-premium{
@@ -102,7 +123,6 @@
     background-image: linear-gradient(to right, #A92F9C, #7D66C9);
     width: 100%;
     padding: 10px 0px 5px 20px;
-    /* border: 1px solid red; */
   }
 
   .disclaimer-premium .text{
