@@ -93,8 +93,8 @@
   }
 
 
-   /* PLAYLIST */
 
+   /* PLAYLIST */
   .playlist-container{
     height: 68vh;
     padding-top: 16px;
@@ -120,6 +120,8 @@
     font-weight: 700;
   }
 
+
+
 /* SCROLL */
 .offer__scroll-container {
   max-height: 43vh;
@@ -135,6 +137,8 @@
   background-color: transparent;
 }
 /* FIM SCROLL */
+
+
 
 .offer__list-item {
   display: grid;
@@ -153,7 +157,7 @@
 
 .cards {
   position: relative; 
-  width: 220px;
+  width: 200px;
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
@@ -166,6 +170,7 @@
   font-size: 24px;
   font-weight: 700;
 }
+
 
 /* COLOR CARDS */
 .card1 {
@@ -216,13 +221,13 @@
 /* FIM COLOR CARDS */
 
 
-/* CARD ARTISTA */
 
-.artist {
+/* CARD ARTISTA */
+/* .artist {
   --column-count: 5;
   --grid-gap: 24px;
   --min-container-width: 372px;
-}
+} */
 
 .hidden {
   display: none;
@@ -338,11 +343,11 @@
     background-image: linear-gradient(to right, #A92F9C, #7D66C9);
     width: 100%;
     padding: 10px 0px 5px 20px;
+    /* margin-top: 20px; */
   }
 
   .disclaimer-premium .text{
     color: white;
-    
   }
 
   .disclaimer-premium .text p{
@@ -362,5 +367,4 @@
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
-    
   }
